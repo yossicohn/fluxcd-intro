@@ -3,7 +3,7 @@
 ```
 kubectl create ns flux
 
-$GHUSER = "yossicohn"
+GHUSER="yossicohn"
 fluxctl install \
 --git-user=${GHUSER} \
 --git-email=${GHUSER}@users.noreply.github.com \
