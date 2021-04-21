@@ -1,5 +1,6 @@
 # fluxcd-intro
 
+```
 kubectl create ns flux
 
 $GHUSER = "yossicohn"
@@ -27,3 +28,4 @@ fluxctl sync
     fluxcd.io/automated: 'true'
 
 fluxctl policy -w default:deployment/example-deploy --tag "example-app=1.0.*"
+```
